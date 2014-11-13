@@ -1,0 +1,29 @@
+{
+    "manifest_version": "2",
+    "name": "App name (max 64 chars)",
+    "description": "A line or two about what the app does (max 200 characters)",
+    "version": "2.7",
+    "config": {
+        "category": "Web Analytics",
+        "languages": ["English", "German", "list of languages your app supports"],
+        "restrictions": "Any restrictions that users should know about, eg. US websites only or just say None",
+        "tos": "http://service.com/terms_of_service_url",
+        "assets": {
+            "logos": {
+                "132px": "./public/images/logo-132.png",
+                "200px": "./public/images/logo-200.png"
+            },
+            "detail_page_images": [
+                "./public/images/dashboard_example.png",
+                "./public/images/dashboard_example.png",
+                "... upto 10 images"
+            ],
+            "app_images": [
+                "./public/images/close_button.png",
+                "./public/images/close_button.png",
+                "./public/images/sprite.png",
+                "... upto 10 images"
+            ]
+        }
+    }
+}
